@@ -1,0 +1,64 @@
+/* I have added some extra declarations to this CSS file */
+body
+{
+    background-color: black;
+}
+
+.container 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    margin: 0 auto;
+    width: 710px;
+    border-style: none;
+	padding: 0 2em 1em;
+    margin-top: 10%;
+    padding-top: .5%;
+}
+
+h1 
+{ 
+    font-size: 150%;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: .5em;
+}
+div {
+    margin-bottom: 1em;
+}
+input 
+{
+    width: 22em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+#tasks 
+{
+    margin-top: 0;
+    float: right;
+}
+
+#task_list
+{
+    background-color: black;
+    color: orange;
+}
+
+#add_task
+{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border-style: none;
+ 
+}
+
+#clear_tasks
+{
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border-style: none;
+}

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    width: 700px;
+    border: 3px solid orange;
+    padding: 0 2em 3em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+}
+h1, h3 {
+    color: white;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 12em;
+    color: darkorange;
+    font-weight: bolder;
+}
+input[type=text] {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
+#trips {
+    float: right;
+}
+
+#add_trip
+{
+    padding: 2%;
+    background-color: green;
+    color: azure;
+    font-weight: bolder;
+    font-size: larger;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 40px;
+}

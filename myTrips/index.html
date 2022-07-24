@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trips Log</title>
+    <link rel="stylesheet" href="trips.css">
+</head>
+<body>
+    <main>
+        <h1>Trips Log</h1>
+        <div id="trips">
+            <label for="trips">Trips List:</label><br>
+            <textarea id="trip_list" rows="8" cols="42"></textarea>
+        </div>
+        <div>
+            <label for="destination">Destination:</label><br>
+            <input type="text" id="destination" style="margin: 0;">
+            <span id="destinationError"></span>
+        </div>
+        <div>
+            <label for="miles">Miles Driven:</label><br>
+            <input type="text" id="miles" style="margin: 0;">
+            <span id="milesError"></span>
+        </div>
+        <div>
+            <label for="gallons">Gallons of Gas Used:</label><br>
+            <input type="text" id="gallons" style="margin: 0;">
+            <span id="gallonsError"></span>
+        </div>
+        <div>
+            <label></label>
+            <input type="button" id="add_trip" value="Add Trip">
+        </div>
+        <span id="errorMsg" style="display: none"></span>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="lib_trips.js" type="module"></script>
+    <script src="trips.js" type="module"></script>
+</body>
+</html>
